@@ -1,0 +1,87 @@
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+.home {
+    cursor: pointer;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://img.freepik.com/vector-gratis/farmacia-enfermera-mostrador-personaje-dibujos-animados-drogueria_36082-339.jpg?w=2000');
+}
+
+table {
+    width: 80%;
+    font-family: "helvetica";
+    border-top: 4px solid cyan;
+    border-left: 4px solid cyan;
+    border-right: 4px solid cyan;
+    border-bottom: 4px solid cyan;
+    border-spacing: 0;
+}
+
+th {
+    background-color: darkcyan;
+    font-size: large;
+    text-align: center;
+    border: 1px solid black;
+    font-family: "arial";
+}
+
+td {
+    background-color: beige;
+    font-size: medium;
+    border: 1px solid black;
+    font-family: "arial";
+    padding: 20px;
+}
+
+.formu {
+    text-align: center;
+    width: 80%;
+}
+
+.button {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: darkcyan;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {
+    background-color: cyan
+}
+
+.button:active {
+    background-color: cyan;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.Bien {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+}
+
+.Mal {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: white;
+}

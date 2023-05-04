@@ -1,0 +1,97 @@
+* {
+    font-family: sans-serif;
+    font-style: inherit;
+}
+
+header {
+    font-size: 25px;
+    font-family: fantasy;
+}
+
+.home {
+    cursor: pointer;
+    margin-left: 1px;
+    text-align: left;
+    width: 30px;
+}
+
+body {
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.68), rgba(109, 213, 250, 0.68));
+    text-align: center;
+}
+
+.form {
+    margin-top: 40px;
+    margin-left: 300px;
+    width: 50%;
+    padding: 80px 5px;
+    border: 2px solid;
+    border-radius: 8px;
+    align-content: center;
+    background-color: #3883B2;
+}
+
+.contenedor {
+    margin-top: 30px;
+    margin-left: 20px;
+    border: 1px #98e5d6 solid;
+    padding: 30px 30px;
+    width: 80%;
+    background: linear-gradient(to left, #4456DE, #9BA4E7);
+}
+
+label {
+    font-size: 20px;
+    font-family: unset;
+    color: #230f48;
+    margin-right: 6px;
+
+}
+
+.entra {
+    width: 300px;
+    height: 30px;
+    text-align: center;
+}
+
+.boton {
+    margin-top: 15px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: darkcyan;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.boton:hover {
+    background-color: cyan
+}
+
+.boton:active {
+    background-color: cyan;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.Bien {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+}
+
+.Mal {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: white;
+}
